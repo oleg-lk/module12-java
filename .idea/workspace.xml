@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff29d4af-0f57-4252-a8c4-717d804b8adc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dop_tasks/task1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dop_tasks/task2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +154,22 @@
       <option name="project" value="LOCAL" />
       <updated>1657908421024</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dop task 1 end">
+      <created>1657990236365</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657990236365</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="simple chat some nd" />
     <MESSAGE value="end module before dop tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="end module before dop tasks" />
+    <MESSAGE value="dop task 1 end" />
+    <option name="LAST_COMMIT_MESSAGE" value="dop task 1 end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
