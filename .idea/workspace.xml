@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff29d4af-0f57-4252-a8c4-717d804b8adc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dop_tasks/task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dop_tasks/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dop_tasks/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dop_tasks/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dop_tasks/task2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,20 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.dop_tasks.task1.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dop_tasks.task2.Main" />
+      <module name="module12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dop_tasks.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainOneThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.MainOneThread" />
       <module name="module12" />
@@ -61,19 +76,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dop_tasks.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="server.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.Main" />
-      <module name="module12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.dop_tasks.task1.Main" />
         <item itemvalue="Application.MainOneThread" />
         <item itemvalue="Application.thread.Main" />
         <item itemvalue="Application.simple_chat.Main" />
-        <item itemvalue="Application.server.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657990236365</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dop task 1 end, fix packages">
+      <created>1657990333598</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657990333598</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,7 +178,8 @@
     <MESSAGE value="simple chat some nd" />
     <MESSAGE value="end module before dop tasks" />
     <MESSAGE value="dop task 1 end" />
-    <option name="LAST_COMMIT_MESSAGE" value="dop task 1 end" />
+    <MESSAGE value="dop task 1 end, fix packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="dop task 1 end, fix packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

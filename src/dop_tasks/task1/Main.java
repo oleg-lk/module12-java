@@ -4,13 +4,14 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 import java.util.Stack;
+import java.util.concurrent.ArrayBlockingQueue;
 
 public class Main {
 
     static class Adder implements Runnable {
-        List<? super Integer> list;
+        ArrayBlockingQueue<Integer> list;
 
-        public Adder(List<? super Integer> list) {
+        public Adder(ArrayBlockingQueue<Integer> list) {
             this.list = list;
         }
 
@@ -20,7 +21,11 @@ public class Main {
                 Random rand = new Random(System.currentTimeMillis());
                 if (list.size() < 10) {
                     final var i = rand.nextInt(100);
-                    list.add(i);
+                    try {
+                        list.put(i);
+                    } catch (InterruptedException e) {
+                        break;
+                    }
                     final var sz = list.size();
                     System.out.println("Adder: add %d[%d] to list".formatted(i, sz));
                 }
@@ -29,7 +34,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        List<Integer> stack = new LinkedList<>();
+        ArrayBlockingQueue<Integer> stack = new ArrayBlockingQueue<>(10);
 
         Thread adder = new Thread(new Adder(stack));
         adder.start();
@@ -44,7 +49,12 @@ public class Main {
                 }
                 final var r = rand.nextInt(10);
                 if (r == 5 && stack.size() > 0) {
-                    final var remEl = stack.remove(0);
+                    final Integer remEl;
+                    try {
+                        remEl = stack.take();
+                    } catch (InterruptedException e) {
+                        break;
+                    }
                     System.out.println("Remover: remove %d[0], list size = %d".formatted(remEl, stack.size()));
                 }
             }
