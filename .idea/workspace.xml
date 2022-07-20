@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff29d4af-0f57-4252-a8c4-717d804b8adc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/thread/ChikkenEgg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/MainOneThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
